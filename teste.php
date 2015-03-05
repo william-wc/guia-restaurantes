@@ -15,9 +15,13 @@
 			$a = 5;
 			$b = 10;
 			$r = -1;
-			//echo soma($a, $b);
-			multiplicacao($a, $b, $r);
-			echo $r;
+                        
+			echo soma($a, $b)."<br>";
+			echo subtracao($a, $b)."<br>";
+			multiplicacao($a, $b, $r); 
+                        echo $r."<br>";
+			divisao($a, $b, $r); 
+                        echo $r."<br>";
 		?>	
 	</body>
 </html>
